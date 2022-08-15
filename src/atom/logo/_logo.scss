@@ -1,0 +1,10 @@
+.jhlite-logo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  &--text {
+    font-size: 1.75rem;
+    font-family: Pacifico, cursive;
+  }
+}

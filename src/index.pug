@@ -12,16 +12,17 @@ block content
         .tikui-vertical-spacing--line
           h2.tikui-title-section Use
         .tikui-vertical-spacing--line
-          p.tikui-paragraph Import style using #[strong &lt;link&gt;] tag and replace #[strong {DOMAIN}] with the current domain:
+          p.tikui-paragraph Import style using #[strong #{'<link>'}] tag and replace #[strong {DOMAIN}] with the current domain:
         .tikui-vertical-spacing--line
           p.tikui-paragraph
             em HTML
         .tikui-vertical-spacing--line
           pre
             code.language-html.
-              &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot; /&gt;
+              #{'<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />'}
 
-              &lt;link rel=&quot;stylesheet&quot; href=&quot;{DOMAIN}/tikui.css&quot; /&gt;
+              #{'<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap" />'}
+              #{'<link rel="stylesheet" href="{DOMAIN}/tikui.css" />'}
         .tikui-vertical-spacing--line
           p.tikui-paragraph
             em Pug
@@ -30,6 +31,7 @@ block content
             code.language-pug.
               meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
 
+              link(rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap')
               link(rel='stylesheet' href='{DOMAIN}/tikui.css')
         .tikui-vertical-spacing--line
           h2.tikui-title-section Documentation
