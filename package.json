@@ -19,6 +19,8 @@
   "main": "src/index.pug",
   "repository": "github:tikui/tikui",
   "scripts": {
+    "glyph:build": "fontello-cli install --config glyph/config.json --font glyph/font --css glyph/css",
+    "glyph:open": "fontello-cli open --config glyph/config.json",
     "serve": "tikui-core serve",
     "build": "tikui-core build",
     "lint": "concurrently npm:sass:lint npm:pug:lint",
@@ -28,12 +30,13 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@tikui/core": "^2.1.0",
+    "@tikui/core": "^2.2.0",
     "@types/concurrently": "^7.0.0",
     "tikuidoc-tikui": "^4.0.0"
   },
   "devDependencies": {
     "concurrently": "^7.2.2",
+    "fontello-cli": "^0.6.2",
     "husky": "^8.0.1",
     "postcss-scss": "^4.0.4",
     "pug-lint": "^2.6.0",
