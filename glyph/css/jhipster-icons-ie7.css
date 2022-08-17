@@ -1,0 +1,16 @@
+[class^="jhipster-icon-"], [class*=" jhipster-icon-"] {
+  font-family: 'jhipster-icons';
+  font-style: normal;
+  font-weight: normal;
+
+  /* fix buttons height */
+  line-height: 1em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+.jhipster-icon-book { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.jhipster-icon-puzzle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf12e;&nbsp;'); }
+.jhipster-icon-binoculars { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1e5;&nbsp;'); }
+.jhipster-icon-map { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf279;&nbsp;'); }
