@@ -1,3 +1,6 @@
 {
-  "documentation": "tikui"
+  "documentation": "tikui",
+  "expose": {
+    "glyph": "glyph"
+  }
 }
